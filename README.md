@@ -1,72 +1,70 @@
-# Capstone Project- Quiz app
+# Capstone Project - Quiz App
 
-    Intro about Quizz App :
+## Introduction to Quiz App:
 
-    1.  The App basically allows the user to make an interactive quiz. The Create New Quiz is used to start creating the new quiz where they will be given a choice to select the type of quiz. Then they will be redirected to the quiz creation. After creating the quiz, users can check the list of quizzes  in the My Quizzes page.
+The Quiz App is an interactive application that allows users to create and play quizzes. It provides various features to enhance the quiz creation and playing experience.
 
-    2. Then the user can go on to the Play quiz page to start the quiz, before starting the quiz it requires the Name for the authentication. After playing the quiz, the result page will be shown at the end.
+1. Create New Quiz:
+   - Users can start creating a new quiz by selecting the "Create New Quiz" option. They will be prompted to choose the type of quiz they want to create and then redirected to the quiz creation page.
+   - After creating the quiz, users can view a list of their quizzes on the "My Quizzes" page.
 
-    3. The user can enable and disable particular quizzes by using the toggle button.
+2. Play Quiz:
+   - Users can proceed to the "Play Quiz" page to start taking a quiz. Before starting, they need to provide their name for authentication purposes.
+   - Once the quiz is completed, the result page will be displayed.
 
-    4. The user can delete the quizzes if they dont want it by using the delete button.
+3. Enable/Disable Quizzes:
+   - Users have the option to enable or disable specific quizzes using the toggle button. This feature provides flexibility in managing the availability of quizzes.
 
-    Functionality and Components of Quizz App :
+4. Delete Quizzes:
+   - Users can delete quizzes they no longer need by using the delete button. This allows them to remove unwanted quizzes from their list.
 
-    The App.js is the initial and main file where the Navbar components and the react-routers are being rendered.
+## Functionality and Components of Quiz App:
 
-    1. This Quiz Platform app contains mainly 6 pages :
-       Home Page,
-       Create Quiz Page,
-       My Quizzes Page,
-       Authentication Page,
-       Play Quiz Page and
-       Result Page.
+The main file of the application is `App.js`, which renders the Navbar components and sets up the react-routers.
 
-    2. Routings :
-        The React-router-dom is used for navigating the routes between the different pages.
+1. Pages:
+   - Home Page
+   - Create Quiz Page
+   - My Quizzes Page
+   - Authentication Page
+   - Play Quiz Page
+   - Result Page
 
-    3. State management :
-         React-redux is used for state management operations
-          * React Redux is the official React UI bindings layer for Redux.
-          * It lets your React components read data from a Redux store, and dispatch actions to the store to update state.
-          * It mainly consists of three parts, namely
-             actions
-             store
-             Reducers
+2. Routing:
+   - The `react-router-dom` library is utilized for navigating between different pages within the application.
 
-    4. Framer-motion :
-      Framer Motion is an animation library that makes creating animations easy.
-      Its simplified API helps us abstract the complexities behind animations and allows us to create animations with ease.
+3. State Management:
+   - State management operations are handled using `react-redux`.
+   - React Redux is the official React UI bindings layer for Redux, enabling React components to read data from a Redux store and dispatch actions to update the state.
+   - It consists of three main parts: actions, store, and reducers.
 
-    5.conclusion :
-     * This project is created with React.js and its dependencies.
-     * css is used for stylings.
-     * The React-router-dom is used for Routings.
-     * React-redux is used for state management .
-     * Framer Motion is used for animation.
+4. Framer Motion:
+   - Framer Motion is an animation library that simplifies the process of creating animations.
+   - It provides an easy-to-use API, abstracting the complexities of animations and enabling smooth animation creation.
 
-Deployment link : https://qizz-app.netlify.app/
-Github link : https://github.com/EswarChandran0110/quiz-app
+## Conclusion:
+- This project is developed using React.js and its dependencies.
+- CSS is used for styling the application.
+- `react-router-dom` is utilized for routing between pages.
+- `react-redux` is employed for state management.
+- `Framer Motion` is used to enhance the application with animations.
 
-React-redux Component :
+Deployment link: [https://qizz-app.netlify.app/](https://qizz-app.netlify.app/)
+GitHub link: [https://github.com/EswarChandran0110/quiz-app](https://github.com/EswarChandran0110/quiz-app)
 
-React components are used to read data from a Redux store, and dispatch actions to the store to update state.
+## React Redux Components:
 
-React components are divided into 3 types, namely
-Action.js
-Reducer.js
-Store.js
+React components are employed to read data from the Redux store and dispatch actions to update the state.
 
-Action.js
+The React components are divided into three types:
 
-The Action.js contains the all action types which are required and the necessary actions in order to dispatch them.
+1. Action.js:
+   - `Action.js` contains all the necessary action types and actions required for dispatching them.
 
-Reducer.js
+2. Reducer.js:
+   - The initial state of the application is stored in the reducers.
+   - The reducer contains the necessary functions to update the state.
 
-The initial state of the application is stored in reducers.
-The reducer contains the necessary functions to update the state.
-
-Store.js
-
-It creates the store and reducers.
-The store combines all the reducers and the final store will be used in our app.
+3. Store.js:
+   - `Store.js` creates the store and reducers.
+   - It combines all the reducers, and the final store is used in the application.
