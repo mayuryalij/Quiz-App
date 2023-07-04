@@ -1,4 +1,4 @@
-# Capstone Project - Quiz App
+#  Quiz App  [Click here](https://quiz-app-webdev.netlify.app/).
 
 ## Introduction
 
@@ -51,7 +51,7 @@ Framer Motion is an animation library that simplifies the process of creating an
 
 ## Deployment and Repository Links
 
-Deployment link: [https://qizz-app.netlify.app/](https://qizz-app.netlify.app/)
+Deployment link: [https://quiz-app-webdev.netlify.app/](https://quiz-app-webdev.netlify.app/)
 
 GitHub link: [https://github.com/mayuryalij/Quiz-App](https://github.com/mayuryalij/Quiz-App)
 
